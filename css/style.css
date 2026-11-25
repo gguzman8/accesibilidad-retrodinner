@@ -372,6 +372,13 @@ img {
 	font-weight: normal;
 }
 
+#body .content div div h2.menu-category {
+	font-family: 'Lobster1.4Regular';
+	font-size: 36px;
+	color: #1b6568;
+	font-weight: normal;
+}
+
 #body .content div div ul {
 	list-style-type: none;
 	margin: 0;
@@ -394,12 +401,17 @@ img {
 	border: none;
 }
 
-#body .content div div ul li h2 a {
+#body .content div div ul li h3,
+#body .content div div ul li h3 a {
 	font-family: 'Lobster1.4Regular';
 	font-size: 24px;
 	color: #822619;
 	font-weight: normal;
 	text-decoration: none;
+}
+
+#body .content div div ul li h3 a:hover {
+	color: #80210b;
 }
 
 #body .content div div ul li p {
